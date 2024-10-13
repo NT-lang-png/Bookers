@@ -14,9 +14,9 @@
     </div>
 
     
-    <div class="showbutton">
-        <%= link_to "Edit",edit_book_path(@book.id) %>
-        <p>|</p>
-        <%= link_to "Back",books_path %>
+    <div class="showbuttons">
+        <p class="showbutton"><%= link_to "Edit",edit_book_path(@book.id) %></p>
+        <p class="showbutton">|</p>
+        <p class="showbutton"><%= link_to "Back",books_path %></p>
     </div>
 </body>

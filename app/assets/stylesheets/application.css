@@ -80,5 +80,21 @@
 }
 
 .showbutton{
-  display:fle;
+  display:inline-block;
+}
+
+.edit{
+  margin:33px;
+}
+
+.editform{
+  margin:10px 0;
+}
+
+.editformbody input[type="text"]{
+  height: 40px;
+}
+
+.editbutton{
+  display:inline-block;
 }
