@@ -27,13 +27,16 @@
 .toptext{
   margin:33px;
   font-size:13px;
-  
+
 }
 
 .new{
   margin:33px;
 }
 
+.newflash{
+  margin:33px;
+}
 
 .newheadder{
   font-size:25px;
@@ -68,10 +71,15 @@
 }
 
 .showtext{
-  margin:33px;
+  margin: 33px;
 }
 
-.showtext p{
+.showtextflash{
+  margin:33px 0;
+}
+
+
+.showtexttitle, .showtextbody{
   display:inline-block;
 }
 
